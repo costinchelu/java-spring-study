@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="30 seconds">
+
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+    <!-- To enable JMX Management -->
+    <jmxConfigurator/>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%-5level %logger{0} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Log everything (a lot of information, but very useful for troubleshooting) -->
+    <!--<logger name="org.hibernate" level="debug"/> -->
+<!--    <logger name="ro.ccar.hibernatetutorial" level="WARN"/>-->
+
+    <!-- Log all SQL DML statements as they are executed -->
+    <logger name="org.hibernate.SQL" level="WARN" />
+    <!-- Log all SQL DDL statements as they are executed -->
+    <Logger name="org.hibernate.tool.hbm2ddl" level="WARN" />
+    <!-- Log all JDBC parameters -->
+    <logger name="org.hibernate.type" level="WARN" />
+    <!-- Log transaction related activity -->
+    <Logger name="org.hibernate.transaction" level="ERROR" />
+    <!-- Log all second-level cache activity -->
+    <Logger name="org.hibernate.cache" level="WARN" />
+    <!-- Log all JDBC resource acquisition -->
+    <Logger name="org.hibernate.jdbc" level="ERROR" />
+    <!-- Log HQL and SQL ASTs during query parsing -->
+    <Logger name="org.hibernate.hql.ast.AST" level="ERROR" />
+    <!-- Log all JAAS authorization requests -->
+    <Logger name="org.hibernate.secure" level="ERROR" />
+
+    <root level="info">
+        <appender-ref ref="console"/>
+    </root>
+</configuration>
+
+<!--        Log Level: ERROR, WARN, INFO, DEBUG, or TRACE.-->

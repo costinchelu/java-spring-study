@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>ro.ccar</groupId>
+        <artifactId>java-spring-study</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>spring-hibernate-chad-darby</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>s-03</module>
+        <module>s-04-ioc-ver.01</module>
+        <module>s-04-ioc-ver.02</module>
+        <module>s-07-09</module>
+        <module>s-10</module>
+        <module>s-12-springmvc</module>
+        <module>s-20-hibernate</module>
+        <module>s-28-springmvc-hibernate</module>
+        <module>s-30-multiple-datasources-example</module>
+        <module>s-35-aop</module>
+        <module>s-35-aop</module>
+        <module>s-37-aop</module>
+        <module>s-38-aop</module>
+        <module>s-39-aop</module>
+        <module>s-40-aop</module>
+        <module>s-41-aop</module>
+        <module>s-42-aop</module>
+        <module>s-43-aop</module>
+        <module>s-44-aop</module>
+        <module>s-45-springmvc-hibernate-aop</module>
+        <module>s-47-spring-security</module>
+        <module>s-48-spring-security</module>
+        <module>s-54-spring-security</module>
+        <module>s-55-extra-security-registration-w-thyme-hyb-no-sp-boot</module>
+        <module>s-55-extra-security-registration-w-thyme-hyb-w-sp-boot</module>
+        <module>s-55-extra-spring-security-w-landing-page</module>
+        <module>s-57-spring-rest</module>
+        <module>s-59-boot-rest</module>
+        <module>s-61-spring-rest-global-exceptions</module>
+        <module>s-63-spring-rest-crm</module>
+        <module>s-69-spring-rest-crm-2</module>
+        <module>s-74-boot-hibernate</module>
+        <module>s-77-boot-data-jpa-rest</module>
+        <module>s-78-thymeleaf</module>
+        <module>s-78-thymeleaf-and-security</module>
+        <module>s-80-extra-deploy-spring-boot-jsp-on-tomcat</module>
+        <module>s-80-extra-multiple-jdbc-datasources</module>
+        <module>s-80-extra-security-user-registration-thymeleaf</module>
+    </modules>
+
+</project>

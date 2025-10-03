@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>ro.ccar</groupId>
+        <artifactId>java-spring-study</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>spring-batch</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>batch-01-hello-world</module>
+        <module>batch-02-transitions</module>
+        <module>batch-03-flow</module>
+        <module>batch-04-split</module>
+        <module>batch-05-decisions</module>
+        <module>batch-06-nested-jobs</module>
+        <module>batch-07-listeners</module>
+        <module>batch-08-job-parameters</module>
+        <module>batch-09-input-interfaces</module>
+        <module>batch-10-database-input</module>
+        <module>batch-11-flat-files</module>
+        <module>batch-12-reading-xml</module>
+        <module>batch-13-multiple-flat-files</module>
+        <module>batch-14-item-stream</module>
+        <module>batch-15-item-writer</module>
+        <module>batch-16-database-output</module>
+        <module>batch-17-flat-file-output</module>
+        <module>batch-18-xml-file-output</module>
+        <module>batch-19-writing-multiple-destinations</module>
+        <module>batch-20-item-processor-interface</module>
+        <module>batch-21-filtering-item-processor</module>
+        <module>batch-22-item-validation</module>
+        <module>batch-23-composite-item-processor</module>
+        <module>batch-24-restart-after-error</module>
+        <module>batch-25-retry-after-error</module>
+        <module>batch-26-skip-items-causing-errors</module>
+        <module>batch-27-skip-retry-listeners</module>
+        <module>batch-28-multithreaded-step</module>
+        <module>batch-29-async-item-processor-item-writer</module>
+        <module>batch-30-local-partitioning</module>
+        <module>batch-31-remote-partitioning</module>
+        <module>batch-32-remote-chunking</module>
+        <module>batch-33-starting-a-job</module>
+        <module>batch-34-stopping-a-job</module>
+        <module>batch-35-scheduling-a-job</module>
+        <module>batch-36-launching-via-messages</module>
+        <module>batch-37-informational-messages</module>
+        <module>book-ch06-stopping-a-job</module>
+        <module>book-ch08-composite-processor</module>
+        <module>book-ch08-processor-validation</module>
+        <module>book-ch09-jpa-item-writer</module>
+        <module>book-ch09-mail-writer</module>
+        <module>book-ch10-project</module>
+    </modules>
+
+</project>

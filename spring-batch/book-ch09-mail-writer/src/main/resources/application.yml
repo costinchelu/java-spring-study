@@ -1,0 +1,23 @@
+spring:
+  #  batch:
+  #    job:
+  #      enabled: false
+  #    initialize-schema: always
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_batch?allowPublicKeyRetrieval=true&useSSL=false
+    username: 'root'
+    password: 'Costin.Root'
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
+  mail:
+    host: 127.0.0.1
+    port: 1025
+    properties:
+      smtp:
+        auth: false
+      starttls:
+        enable: false
