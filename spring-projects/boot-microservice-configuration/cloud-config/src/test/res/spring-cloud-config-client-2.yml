@@ -1,0 +1,21 @@
+dummy:
+  connection: conn-cloud-default-2
+  host: 127.0.0.1
+  port: 1111
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+youtube:
+  channel: Java Brains-cloud-default-2
+  tutorial: Spring Boot Microservices Level 3
+app:
+  name: ${youtube.channel} - ${youtube.tutorial}
+  list:
+    values: one,two,three,cloud-default-2
+spring:
+  cloud:
+    config:
+      allow-override: true
+      override-none: true

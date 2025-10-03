@@ -1,0 +1,24 @@
+dummy:
+  connection: conn
+  host: 127.0.0.1
+  port: 1111
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+youtube:
+  channel: Java Brains
+  tutorial: Spring Boot Microservices Level 3
+app:
+  name: ${youtube.channel} - ${youtube.tutorial}
+  list:
+    values: one,two,three
+spring:
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888/application/default
+      import-check:
+        enabled: false
+

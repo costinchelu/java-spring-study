@@ -1,0 +1,43 @@
+// for the MongoDB with Spring course
+
+// create
+{
+    "name" : "Raj",
+    "email" : "raj@gmail.com",
+    "department" : {
+        "departmentName" : "Computer Science",
+        "location" : "INDIA"
+    },
+    "subjects" : [
+        {
+            "subjectName" : "Java",
+            "marksObtained" : 80
+        },
+        {
+            "subjectName" : "C++",
+            "marksObtained" : 70
+        }
+    ]
+}
+
+
+// update
+{
+	"id" : "5fe507f6c8033a7da2d5765f",
+    "name" : "Raj_1",
+    "email" : "raj_1@gmail.com",
+    "department" : {
+        "departmentName" : "Computer Science",
+        "location" : "INDIA"
+    },
+    "subjects" : [
+        {
+            "subjectName" : "Java",
+            "marksObtained" : 80
+        },
+        {
+            "subjectName" : "C++",
+            "marksObtained" : 70
+        }
+    ]
+}

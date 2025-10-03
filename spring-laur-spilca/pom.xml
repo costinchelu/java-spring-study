@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>ro.ccar</groupId>
+        <artifactId>java-spring-study</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>spring-laur-spilca</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>java-vanilla-jdbc</module>
+        <module>spring-01-context</module>
+        <module>spring-02-context</module>
+        <module>spring-03-spring-jdbc</module>
+        <module>spring-04-aop</module>
+        <module>spring-05-transactional</module>
+        <module>spring-06-transaction-propagation</module>
+        <module>spring-07-transaction-isolation</module>
+        <module>spring-08-09-spring-boot</module>
+        <module>spring-10-spring-boot-jdbc</module>
+        <module>spring-11-12-spring-data-jdbc</module>
+        <module>spring-13-spring-security</module>
+        <module>spring-14-web-scopes</module>
+        <module>spring-15-testing</module>
+        <module>spring-16-actuator</module>
+        <module>spring-security-1</module>
+        <module>spring-security-2</module>
+        <module>spring-security-3</module>
+        <module>spring-security-4</module>
+        <module>spring-security-5</module>
+        <module>spring-security-6</module>
+    </modules>
+
+</project>

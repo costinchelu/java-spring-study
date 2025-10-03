@@ -13,6 +13,10 @@
         <module>master-hibernate-in-100-steps</module>
         <module>spring-hibernate-chad-darby</module>
         <module>spring-in-action</module>
+        <module>spring-jdbc-vs-jpa-inserts-test</module>
+        <module>spring-laur-spilca</module>
+        <module>spring-projects</module>
+        <module>starter-projects</module>
     </modules>
 
     <properties>

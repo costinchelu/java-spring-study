@@ -1,0 +1,13 @@
+dummy:
+  connection: test-conn
+  host: 127.0.0.2
+  port: 2222
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+app:
+  name: ${youtube.channel} - ${youtube.tutorial}
+  list:
+    values: one,two,three,four,five,six,seven

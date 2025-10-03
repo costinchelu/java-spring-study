@@ -1,0 +1,26 @@
+dummy:
+  connection: conn
+  host: 127.0.0.1
+  port: 1111
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+youtube:
+  channel: Java Brains
+  tutorial: Spring Boot Microservices Level 3
+app:
+  name: ${youtube.channel} - ${youtube.tutorial}
+  list:
+    values: one,two,three
+spring:
+  profiles:
+    active: test
+
+# when selecting another profile, Spring will first look in the correspondent application.yml (config) file
+# default profile will always be the base profile, but the new config file will sit on top of default one
+# we can also have "nested" profiles which will sit one on top of the other (example: application-test-qa1.yml will
+# sit on top of application-test.yml which will sit on top of application.yml)
+
+# different beans can be instantiated depending on the selected profile (ex: DefaultRestController vs TestRestController)

@@ -1,0 +1,22 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+youtube:
+  channel: Java Brains-cloud-test-2
+  tutorial: Spring Boot Microservices Level 3
+app:
+  name: ${youtube.channel} - ${youtube.tutorial}
+  list:
+    values: one,two,three,cloud-test-2
+dummy:
+  connection: test-conn-cloud-test-2
+  host: 127.0.0.2
+  port: 2222
+spring:
+  cloud:
+    config:
+      allow-override: true
+      override-none: true
+

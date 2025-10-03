@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>ro.ccar</groupId>
+        <artifactId>java-spring-study</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>spring-projects</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>boot-multithreading</module>
+        <module>boot-ssl</module>
+        <module>spring-aspect</module>
+        <module>boot-h2-rest</module>
+        <module>boot-external-configuration</module>
+        <module>boot-jobrunr</module>
+        <module>boot-mail</module>
+        <module>boot-logging-slf4j-logback</module>
+        <module>boot-logging-log4j2-properties</module>
+        <module>boot-logging-log4j2-xml</module>
+        <module>boot-cl-runner</module>
+        <module>boot-microservice-configuration</module>
+        <module>boot-mongo-udemy</module>
+        <module>boot-neo4j</module>
+        <module>boot-docker</module>
+        <module>boot-profiles</module>
+        <module>boot-validation-exception-handling</module>
+    </modules>
+
+</project>
